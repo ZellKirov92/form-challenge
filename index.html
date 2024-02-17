@@ -10,7 +10,7 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="/normalize.css">
   <link rel="stylesheet" href="/style.css">
-  <script src="/check.js"></script>
+  <script src="/check.js" defer></script>
 </head>
 
 <body>
@@ -25,14 +25,14 @@
   </div>
 
 
-      <form id="form">
-          <input id="fname" title="Enter your first name" type="text" placeholder="First Name" required>
+      <form id="form" name="form">
+          <input id="fname" name="fname" title="Enter your first name" type="text" placeholder="First Name" min="2" required>
           <br>
-          <input id="lname" title="Enter your family name" type="text" placeholder="Last Name" required>
+          <input id="lname" name="lname" title="Enter your family name" type="text" placeholder="Last Name" min="2" required>
           <br>
-          <input id="email" title="Enter your Email" type="email" placeholder="Email Address" required>
+          <input id="email" name="email" title="Enter your Email" type="email" placeholder="Email Address" required>
           <br>
-          <input id="password" title="Enter your password" type="password" placeholder="Password" required>
+          <input id="password" name="password" title="Enter your password" type="password" placeholder="Password" required>
           <br>
 
 

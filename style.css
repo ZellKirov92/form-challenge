@@ -140,7 +140,7 @@ footer img {
             display: grid;
             grid-template-columns: 1fr 1fr;
             justify-content: space-around;
-            background-image: url(/images/bg-intro-desktop.png);
+            background-image: url("/images/bg-intro-desktop.png");
             margin-top: 70px;
             margin-left: 150px;
             margin-right: 100px;

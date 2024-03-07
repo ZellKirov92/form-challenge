@@ -128,6 +128,15 @@ form p a {
     border: 1px solid hsl(0, 100%, 74%);
 }
 
+.displayError {
+    display: none;
+    text-align: right;
+    margin: 10px 38px 0 0;
+    font-size: 10px;
+    color: hsl(0, 100%, 74%);
+    height: 10px;
+}
+
 
 @media screen and (min-width: 1024px) {
         body {

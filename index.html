@@ -4,10 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Intro component with sign up form</title>
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
   <script src="./js/check.js" type="module" defer></script>
@@ -28,12 +26,16 @@
 
     <form id="form" name="form">
       <input id="fname" name="fname" title="Enter your first name" type="text" placeholder="First Name" min="2" required>
+      <span class="displayError">First name cannot be Empty</span>
       <br>
       <input id="lname" name="lname" title="Enter your family name" type="text" placeholder="Last Name" min="2" required>
+      <span class="displayError">Last name cannot be Empty</span>
       <br>
       <input id="email" name="email" title="Enter your Email" type="email" placeholder="Email Address" required>
+      <span class="displayError">Email cannot be Empty</span>
       <br>
       <input id="password" name="password" title="Enter your password" type="password" placeholder="Password" required>
+      <span class="displayError">Password cannot be Empty</span>
       <br>
 
 

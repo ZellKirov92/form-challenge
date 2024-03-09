@@ -2,7 +2,7 @@ export function noValidate () {
         const inputsId = ['fname', 'lname', 'email', 'password'];
         for( const id of inputsId ) {
             const allIdInput = document.getElementById(id);
-            allIdInput.classList.add('invalid');
+            allIdInput.classList.add("invalid");
         }
         const allSpan = document.querySelectorAll("span.displayError");
         allSpan.forEach((span) => {

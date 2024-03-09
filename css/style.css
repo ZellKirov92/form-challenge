@@ -126,6 +126,7 @@ form p a {
 
 .invalid {
     border: 1px solid hsl(0, 100%, 74%);
+    background: url("../images/icon-error.svg") no-repeat right;
 }
 
 .displayError {

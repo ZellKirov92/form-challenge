@@ -1,5 +1,8 @@
-import {validate} from "./validate.js";
+import {validate, init} from "./validate.js";
 import {noValidate} from "./noValidate.js";
+window.onload
+    init();
+
 document.getElementById("form").addEventListener("submit", function(event) {
     event.preventDefault();
     const firstName = document.getElementById("fname").value;
